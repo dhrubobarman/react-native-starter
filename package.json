@@ -10,7 +10,8 @@
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "fix": "npx eslint . --fix"
+    "fix": "npx eslint . --fix",
+    "clear-cache": "npx expo -c"
   },
   "jest": {
     "preset": "jest-expo"
